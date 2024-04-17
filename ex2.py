@@ -17,4 +17,4 @@ while a<6:
         print ("LED %d is OFF"%i)
         GPIO.output(i,GPIO.HIGH)
     a+=1
-GPIO.cleanup(
+GPIO.cleanup()
