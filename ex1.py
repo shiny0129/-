@@ -15,4 +15,4 @@ while a>0:
     time.sleep(0.2)
     a-=1
  
-GPIO.cleanup(
+GPIO.cleanup()
